@@ -10,7 +10,6 @@ import lombok.Data;
  * @desp 苹果类
  *       介绍下Lombok插件,使用Lombok需要安装插件,配置maven依赖,https://blog.csdn.net/motui/article/details/79012846
  *       lombok依赖其scope为provided,介绍下maven的scope作用域
- *
  */
 
 @Data
