@@ -1,4 +1,4 @@
-package com.lwh.java8.chp2.demo2;
+package com.lwh.java8.chp2.demo3;
 
 import com.lwh.java8.chp2.demo1.Apple;
 
@@ -14,7 +14,7 @@ import java.util.function.Predicate;
  * @date 2018-11-13
  * @desp Predicate介绍,该包下面还有IntPredicate、LongPredicate和BiPredicate(两个参数)
  */
-public class PredicateDemo {
+public class Demo1Predicate {
 
     /**
      * 例1
