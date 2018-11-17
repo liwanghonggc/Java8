@@ -1,4 +1,4 @@
-package com.lwh.java8.chp2.demo4;
+package com.lwh.java8.chp1.demo4;
 
 import java.util.function.Consumer;
 

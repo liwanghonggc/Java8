@@ -1,4 +1,4 @@
-package com.lwh.java8.chp2.demo3;
+package com.lwh.java8.chp1.demo3;
 
 /**
  * @author lwh

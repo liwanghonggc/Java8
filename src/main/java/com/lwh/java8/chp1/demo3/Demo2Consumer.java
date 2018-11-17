@@ -1,6 +1,6 @@
-package com.lwh.java8.chp2.demo3;
+package com.lwh.java8.chp1.demo3;
 
-import com.lwh.java8.chp2.demo1.Apple;
+import com.lwh.java8.chp1.demo1.Apple;
 
 import java.util.Arrays;
 import java.util.List;

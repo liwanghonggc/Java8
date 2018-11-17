@@ -1,6 +1,6 @@
-package com.lwh.java8.chp2.demo4;
+package com.lwh.java8.chp1.demo4;
 
-import com.lwh.java8.chp2.demo1.Apple;
+import com.lwh.java8.chp1.demo1.Apple;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;

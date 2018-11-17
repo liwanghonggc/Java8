@@ -1,4 +1,4 @@
-package com.lwh.java8.chp2.demo1;
+package com.lwh.java8.chp1.demo1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
