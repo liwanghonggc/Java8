@@ -1,4 +1,4 @@
-package com.lwh.java8.chp2.demo1;
+package com.lwh.java8.chp2;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,5 +1,7 @@
 package com.lwh.java8.chp1.demo1;
 
+import com.lwh.java8.chp1.Apple;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

@@ -1,7 +1,8 @@
 package com.lwh.java8.chp2.demo1;
 
+import com.lwh.java8.chp2.Dish;
+
 import java.util.*;
-import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.toList;
 
