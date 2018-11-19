@@ -2,7 +2,6 @@ package com.lwh.java8.chp2.demo1;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
@@ -39,7 +38,11 @@ public class Demo4Stream {
         System.out.println(collect.size());
 
         //正确的解法,将各个生成流合并起来,扁平化为一个流
-        List<String> uinqueChar = words.stream().map(word -> word.split("")).flatMap(Arrays::stream).distinct().collect(toList());
-        System.out.println(uinqueChar);
+        List<String> uniqueChar = words.stream()
+                                       .map(word -> word.split(""))
+                                       .flatMap(Arrays::stream)
+                                       .distinct()
+                                       .collect(toList());
+        System.out.println(uniqueChar);
     }
 }
