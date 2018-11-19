@@ -44,7 +44,11 @@ public class Demo5Stream {
         System.out.println("..............................");
 
         //如何扩展前一个例子,只返回总和能被3整除的数对呢?例如(2, 4)和(3, 3)是可以的
-        List<int[]> res2 = nums1.stream().flatMap(i -> nums2.stream().filter(j -> (i + j) % 3 == 0).map(j -> new int[]{i, j})).collect(toList());
+        List<int[]> res2 = nums1.stream().flatMap(i -> nums2.stream()
+                                                            .filter(j -> (i + j) % 3 == 0)
+                                                            .map(j -> new int[]{i, j})
+                                                 )
+                                         .collect(toList());
         for(int i = 0; i < res2.size(); i++){
             System.out.println(Arrays.toString(res2.get(i)));
         }
