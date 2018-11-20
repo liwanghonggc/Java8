@@ -36,7 +36,6 @@ public class Demo2BuildStream {
         }
 
         //4) 由函数生成流
-
         //4.1) 迭代
         Stream.iterate(0, n -> n + 2).limit(10).forEach(System.out::println);
 
