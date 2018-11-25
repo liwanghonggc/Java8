@@ -29,7 +29,6 @@ public class Demo1NumStream {
         int maxCal = maxCalories.orElse(1);
 
         //数值范围,rangeClosed含头含尾,range含头不含尾
-
         IntStream evenNums = IntStream.rangeClosed(1, 100).filter(n -> n % 2 == 0);
         System.out.println(evenNums.count());
     }
